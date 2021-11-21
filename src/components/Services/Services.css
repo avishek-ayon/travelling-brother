@@ -1,0 +1,32 @@
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+    margin: 0 30px;
+    padding-bottom: 30px;
+}
+.service-heading{
+    background-color: steelblue;
+    margin: 0 300px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    color: lightgreen;
+}
+
+@media screen and (max-width:768px) {
+    .services-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 0px;
+        margin: 0 10px;
+        padding-bottom: 20px;
+    }
+    .service-heading{
+        
+        margin: 0 10px;
+        
+    }
+    
+    
+}
